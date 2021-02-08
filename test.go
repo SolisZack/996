@@ -6,7 +6,8 @@ import (
 )
 
 func main() {
-	var a int = 10
-	fmt.Println(reflect.TypeOf(a))
-	fmt.Println("hello world")
+	var a float32 = 3.0
+	var b int = 3
+
+	fmt.Println(reflect.TypeOf(a), reflect.TypeOf(b))
 }
